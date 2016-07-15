@@ -3,30 +3,50 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color: #7B7B7D;
 }
 
 
 #page1{
     width: 100vw;
     height: 100vh;
-    padding-top: 50px;
-    padding-left: 20px;
-    background-color: DarkSlateGray;
-    
-   
+    padding-top: 0px;
+    padding-left: 0px;
+    background: url(page1bak.jpg);
+    background-size: cover;
+}
+#page1Content{
+     background-color: rgba(1, 1, 1, 0.83);
+     width: 100vw;
+     height: 100vh;
+     padding-top: 25px;
+     
 
 }
-#page1 h1{
+#page1Head {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+
+}
+
+.thisContent{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#page1Content h1{
     font-size: 50px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
-#page1 p{
+#page1Content p{
+   
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px black;
 }
+
 #page2{
     width: 100vw;
     height: 100vh;
@@ -44,4 +64,5 @@ html, body{
     padding-left: 20px;
     background-color: gray;
 }
+\
 
