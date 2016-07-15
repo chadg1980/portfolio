@@ -1,0 +1,42 @@
+
+html, body{
+    
+    margin: 0;
+    height: 100%;
+    background-color: red;
+}
+
+.mainBody{
+     margin: 0;
+    height: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: white;
+    
+}
+#page2{
+    
+    height: 100vh;
+    width: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: blue;
+    
+    
+}
+
+#page3{
+    
+    height: 100vh;
+    width: 100vh;
+    padding-left: 20px;
+    padding-top: 50px;
+    background-color: gray;
+}
+#text-center{
+    margin: 1px;
+}
