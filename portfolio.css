@@ -1,27 +1,35 @@
 
 html, body{
-    
-    margin: 0;
     height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: red;
 }
 
-.mainBody{
-     margin: 0;
-    height: 100%;
-}
+
 #page1{
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
     padding-top: 50px;
     padding-left: 20px;
-    background-color: white;
+    background-color: DarkSlateGray;
     
+   
+
+}
+#page1 h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#page1 p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 #page2{
-    
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
     padding-top: 50px;
     padding-left: 20px;
     background-color: blue;
@@ -30,13 +38,10 @@ html, body{
 }
 
 #page3{
-    
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
-    padding-left: 20px;
     padding-top: 50px;
+    padding-left: 20px;
     background-color: gray;
 }
-#text-center{
-    margin: 1px;
-}
+
