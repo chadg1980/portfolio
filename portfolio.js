@@ -12,6 +12,11 @@ $(document).ready(function(){
             evn.preventDefault();
             $('html,body').scrollTo(this.hash, this.hash); 
         });
+
+        
+         
+
+
         
         
         
