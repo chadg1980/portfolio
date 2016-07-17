@@ -80,12 +80,53 @@ html, body{
 
 }
 
+#myWork{
+    color: white;
+    word-wrap: break-word;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+    
+}
+
+
+
+#myWork td{
+   vertical-align: top;
+   text-align: left;
+   width: 25%;
+   
+   padding-top: 10px;
+   
+}
+.screenGrab{
+    width: 100%;
+}
+
 #page3{
     width: 100vw;
     height: 100vh;
-    padding-top: 50px;
-    padding-left: 20px;
-    background-color: gray;
+    padding-top: 0px;
+    padding-left: 0px;
+    background: url(page2bak.jpg);
+    background-size: cover;
+    
 }
-\
+#page3Content{
+    background-color: rgba(1, 1, 1, 0.83);
+     width: 100vw;
+     height: 100vh;
+     padding-top: 25px;
 
+}
+#page3Content h1{
+    font-size:50px;
+    color: white;
+    text-shadow: 1px 1px black;
+    
+    
+}
+.contactHead {
+    /*width: 60%;*/
+    margin-left: 20%;
+    margin-right: 20%;
+ }
