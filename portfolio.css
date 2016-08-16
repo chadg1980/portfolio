@@ -53,7 +53,7 @@ html, body{
     color: white;
 }
 
-#goToWork{
+#goToWork, #toAboutMe{
    float:left;
    padding-top: 20px;
    padding-right: 10px;
@@ -144,14 +144,30 @@ html, body{
     color: white;
     
  }
- .page3footer{
+ #toBottom1{
+    position: absolute;
     height: 10%;
     padding-left: 25%;
-    padding-top: 30%;
-    font-size: 20px;
-    color: white;
-    
+    padding-right: 25%;
+    bottom: -200%;
+   
+   
  }
-  .page3footer a{
+ #toBottom2{
+    position: absolute;
+    height: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    bottom: -100%;
+}
+#toTopTable{
+    border-spacing: 10px;
+}
+.toTopTable td{
+    padding: 5px;
+}
+
+.allFooters{
     color: white;
+    font-size:20px;
   }
