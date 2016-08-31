@@ -8,10 +8,7 @@
   <link rel="stylesheet" type="text/css" href="portfolio.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src='jquery.scrollto.js'></script>
-  <script type="text/javascript" src="portfolio.js"></script>
+  
 
 </head>
 <body>
@@ -86,60 +83,41 @@
             <h1>Work I've Done</h1>
           </div>
         
-        <div class="thisContent">
-          <table id="myWork">
-            <tr>
-              <td>
-                <a href="http://104.236.152.100/randomquote/randomQuote.html" target="_blank">
+        <div class="grid">
+          
+          <div class="grid-item">
+            <a href="http://104.236.152.100/randomquote/randomQuote.html" target="_blank">
                   <img class="screenGrab" src="randomQuote.jpg">
-                </a>
-              </td>
-              <td></td>
-              <td>
-                <a href="https://codepen.io/chadg0x7BC/full/zBvrjr/" target="_blank">
-                  <img class="screenGrab" src="tribute.jpg">
-                </a>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="caption">
+                  <p>
                 Random Inspirational Quote board I  created in HTML5\CSS3\Javascript. I used inspirational quotes to motivate myself.   
-              </td>
-              <td></td>
-              <td class="caption">
-                A tribute page to my Golden Retreiver who passed away July of 2016. I built this page in HTML5/CSS3
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <a href="http://104.236.152.100/weather/weather.html" target="_blank">
-                  <img class="screenGrab" src="weather.jpg">
+            </p>
                 </a>
-              </td>
-              <td></td>
-              <td>
+          </div>
+
+          <div class="grid-item">
+            <a href="https://codepen.io/chadg0x7BC/full/zBvrjr/" target="_blank">
+              <img class="screenGrab" src="tribute.jpg">
+              <p> A tribute page to my Golden Retreiver who passed away July of 2016. I built this page in HTML5/CSS3</p>
+            </a>
+          </div>
+
+          <div class="grid-item">
+            <a href="http://104.236.152.100/weather/weather.html" target="_blank">
+              <img class="screenGrab" src="weather.jpg">
+              <p> A single page application to show the local weather, using free weather API consuming JSON.</p>
+            </a>
+              </div>
+             
+             <div class="grid-item">
                 <a href="http://104.236.152.100/cheapest/cheapest.html" target="_blank">
                   <img class="screenGrab" src="cheapest.jpg">
+                  <p> The Cheapest is a blog to help people make wise choices when spending money. Built with vanilla Javascript.</p>
                 </a>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td class="caption">
-                A single page application to show the local weather, using free weather API consuming JSON.
-              </td>
-              <td></td>
-              <td class="caption">
-                 The Cheapest is a blog to help people make wise choices when spending money. Built with vanilla Javascript.
-              </td>
-            </tr>
-          </table>
-        </div>
+             </div>
+          </div>
+       
              
-         <div class="container action allFooters">
+         <div class="foot container action allFooters">
           <table> 
             <tr><td>
               <span id="toAboutMe">about me</spaan>
@@ -161,7 +139,7 @@
               </nav>
               </td></tr>
             </table>
-          </div>
+         
            
        
       <!-- End of page2 content -->
@@ -221,4 +199,12 @@
    
 
 </body>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src='jquery.scrollto.js'></script>
+  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+  <script src="js/imagefill.js"></script>
+  <script type="text/javascript" src="portfolio.js"></script>
 </html>

@@ -79,29 +79,47 @@ html, body{
      padding-top: 25px;
 
 }
-
-#myWork{
-    color: white;
-    word-wrap: break-word;
-    font-size: 16px;
-    text-shadow: 1px 1px black;
-    
+/* the grid for showing off my work page 2*/
+.grid:after{
+  content: '';
+  display: block;
+  clear: both;
 }
 
-
-
-#myWork td{
-   vertical-align: top;
-   text-align: left;
-   width: 25%;
-   padding-top: 10px;
-  
-   
-}
-.screenGrab{
+.grid img{
     width: 100%;
+
 }
 
+.grid{
+  max-width: 1200px;
+  margin: 0 auto;
+   font-size: 16px;
+   margin-bottom: 10px;
+
+}
+.grid-item{
+  float: left;
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  margin-bottom: 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+
+}
+.clear{
+  clear: both;
+}
+.foot{
+  float: none;
+ 
+   overflow: hidden;
+}
+.grid-item a{
+  color: white;
+}
 #page3{
     width: 100vw;
     height: 100vh;
